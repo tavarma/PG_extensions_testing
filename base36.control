@@ -1,0 +1,5 @@
+# base36 extension
+# Source: http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/
+comment = 'base36 datatype'
+default_version = '0.0.1'
+relocatable = true
