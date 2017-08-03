@@ -1,4 +1,4 @@
--- complain if script is sourced in psql, rather than via CREATE EXTENSION
+--complain if script is sourced in psql, rather than via CREATE EXTENSION
 \echo Use "CREATE EXTENSION base36" to load this file. \quit
 CREATE FUNCTION base36_encode(digits int)
 RETURNS text
